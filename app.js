@@ -59,7 +59,7 @@ app.post("/failure", (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000, () => {
-    console.log("Service started at 3000.");
+    console.log("Server is up and running.");
 });
 
 //9bb77dc70965652acc8fafd917596f06-us7
